@@ -1,7 +1,24 @@
+ bookscollectsions
+# <a href="https://youtu.be/mLFPodZO8Iw" target="_blank"> bookonlinecollections </a> 
+- A Java Web Developement Project
+- **Youtube VIDEO** for step by step Local Setup Guide : https://youtu.be/mLFPodZO8Iw
+- **Youtube VIDEO** for local setup of tender management project: https://www.youtube.com/watch?v=7CE3aY4e644
+<!--Check out the Live website demo: [https://thebookonlinecollections.herokuapp.com](https://thebookonlinecollections.herokuapp.com)-->
+- User Login Credentials: (shashi/shashi)
+- Admin Login Credentials: (Admin/Admin)
+<hr>
+=======
+main
 
 A user-friendly Online Books Collections from  which users can log in or register, view the available books, select books along with their quantity, and buy them. Users can also get payment receipts after successful payment. The project can also be used by the administrator, who can add new books, remove books, increase and decrease the quantity of books, change the price of the books as well as maintain the selling history of books.
 
+bookscollectsions
+A user-friendly Online BookCollections project in which users can log in or register, view the available books, select books along with their quantity, and buy them. Users can also get payment receipts after successful payment. The project can also be used by the administrator, who can add new books, remove books, increase and decrease the quantity of books, change the price of the books as well as maintain the selling history of books.
 
+![bookonlinecollections](https://user-images.githubusercontent.com/34605595/137615096-8447d32d-bddc-4f13-a8ed-3c0f4dd5e04e.png)
+=======
+
+ main
 
 <span style="color:blue">**This Website is built for following purpose:-**</span>
 - For Selling books online.
@@ -91,7 +108,11 @@ commit;
 
 Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
+ bookscollectsions
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/bookonlinecollections.git```> Select master Branch > Next > Next > Finish.
+=======
 Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/brambhattabhishek/bookonlinecollections.git```> Select master Branch > Next > Next > Finish.
+ main
 
 Step 2. a: Go inside ```src/main/resources > application.properties``` and update the value of database details as per your usage, like db.driver, db.host, db.username and db.password according to your installed mysql/postgresql admin user credentials.
 

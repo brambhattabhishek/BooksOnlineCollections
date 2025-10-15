@@ -2,13 +2,22 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+bookscollectsions
+	<groupId>bookonlinecollections</groupId>
+	<artifactId>bookonlinecollections</artifactId>
+=======
 	<groupId>booksonlinecollections</groupId>
 	<artifactId>booksonlinecollections</artifactId>
+ main
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
+ bookscollectsions
+		<finalName>bookonlinecollections</finalName>
+=======
 		<finalName>booksonlinecollections</finalName>
+ main
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
