@@ -58,9 +58,9 @@ STEP 2: Login to the administrator user as : ```mysql -u <username> -p``` (Enter
 
 STEP 3: Copy paste the following MySql Commands-
 ```MySQL
-create database if not exists onlinebookstore;
+create database if not exists bookonlinecollection;
 
-use onlinebookstore;
+use bookonlinecollection;
 
 create table if not exists books(barcode varchar(100) primary key, name varchar(100), author varchar(100), price int, quantity int);
 
@@ -91,7 +91,7 @@ commit;
 
 Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/onlinebookstore.git```> Select master Branch > Next > Next > Finish.
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/brambhattabhishek/bookonlinecollection.git```> Select master Branch > Next > Next > Finish.
 
 Step 2. a: Go inside ```src/main/resources > application.properties``` and update the value of database details as per your usage, like db.driver, db.host, db.username and db.password according to your installed mysql/postgresql admin user credentials.
 
@@ -105,14 +105,9 @@ Step 4: In The Server Tab > Double Click On Tomcat Server > Ports > Change The P
 
 Step 5: Right Click On Project > Run As > Run On Server > Select Tomcat v8.0 > Next > Add All> Done.
 
-Step 6: Check Running The Site At  <a href="http://localhost:8083/onlinebookstore/">http://localhost:8083/onlinebookstore/</a>
+Step 6: Check Running The Site At  <a href="http://localhost:8083/bookonlinecollection/">http://localhost:8083/bookonlinecollection/</a>
 
 Step 7: Default Username And Password For Admin Is "Admin" And "Admin"
 
 Step 8: The default Username And Password For User Is "shashi" And "shashi"
-
-
-
-<bold>Thanks a lot,</bold><br/>
-                                                                                                        Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+Done !
