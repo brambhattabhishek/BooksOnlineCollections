@@ -93,7 +93,7 @@ commit;
 Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
  bookscollectsions
-Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/bookonlinecollections.git```> Select master Branch > Next > Next > Finish.
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/brambhattabhishek/bookonlinecollections.git```> Select master Branch > Next > Next > Finish.
 =======
 Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/brambhattabhishek/bookonlinecollections.git```> Select master Branch > Next > Next > Finish.
  main
