@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.bittercode.constant.BookStoreConstants;
+import com.bittercode.constant.BookCollectionsConstants;
 import com.bittercode.constant.ResponseCode;
 import com.bittercode.constant.db.UsersDBConstants;
 import com.bittercode.model.User;
@@ -23,7 +23,7 @@ public class CustomerRegisterServlet extends HttpServlet {
 
     public void service(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
         PrintWriter pw = res.getWriter();
-        res.setContentType(BookStoreConstants.CONTENT_TYPE_TEXT_HTML);
+        res.setContentType(BookCollectionsConstants.CONTENT_TYPE_TEXT_HTML);
 
         String pWord = req.getParameter(UsersDBConstants.COLUMN_PASSWORD);
         String fName = req.getParameter(UsersDBConstants.COLUMN_FIRSTNAME);
